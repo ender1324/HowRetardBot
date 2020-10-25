@@ -1,0 +1,15 @@
+# Custom gitignore for javascript
+# Logging
+logs
+*.log
+npm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+# Runtime stuff
+pids
+*.pid
+*.seed
+*.pid.lock
+# Node modules
+node_modules/
+# Cache
+.npm
