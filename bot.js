@@ -7,7 +7,7 @@ bot.catch((err, ctx) => {
 bot.start((ctx) => ctx.reply("I'm alive, use /help to see the many of my command"))
 bot.help((ctx) => ctx.reply('use "/howretard [Something]" to check how retard is the something'))
 bot.command('source', (ctx) => ctx.reply('Source Code: https://github.com/ender1324/HowRetardBot'))
-bot.hears(/howretard (.+)/, ({ match, reply }) => {
+bot.hears(/howretard(?:@HowRetard_bot)? (.+)/, ({ match, reply }) => {
     const randomnumber = Math.floor(Math.random() * 100) + "%";
    reply(match[1] + " is " + randomnumber + " retarded").catch((err) => { 
     console.log(err)
