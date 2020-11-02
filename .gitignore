@@ -13,3 +13,5 @@ pids
 node_modules/
 # Cache
 .npm
+# Package lock
+package-lock.json*
