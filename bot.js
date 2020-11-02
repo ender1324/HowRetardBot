@@ -16,4 +16,6 @@ bot.hears(/howretard(?:@HowRetard_bot)? (.+)/, ({ match, reply }) => {
  })
 });
 
-bot.launch();
+bot.launch(
+  console.log("Bot launching")
+);
